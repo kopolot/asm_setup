@@ -1,0 +1,9 @@
+services:
+  system:
+    image: debian:bullseye-slim
+    build: .
+    volumes:
+      - data:/home/debian
+
+volumes:
+  data:
